@@ -1,0 +1,111 @@
+html {
+  font-size: 62.5%;
+}
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 250px;
+  gap: 1rem;
+  font-size: 1.5rem;
+}
+.home {
+  /* border: 2px solid; */
+  /* padding: 1rem; */
+  /* width: 100%; */
+  height: 100vh;
+  font-size: 1.7rem;
+}
+.notes{
+  font-size: 1.3rem;
+  background-color: beige;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main {
+ display: flex;
+ /* justify-content: center; */
+ height: 85.6%;
+ flex-direction: column;
+gap: 1rem;
+}
+.container {
+  /* height: 90vh; */
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+.users-detail {
+  min-height: 600px;
+  background-color: aliceblue;
+  padding: 2rem;
+}
+
+table,
+td,
+th {
+  border: 1px solid;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  padding: 1rem;
+  width: 100px;
+}
+
+textarea {
+  max-width: 20rem;
+  max-height: 10rem;
+  margin-left: 1rem;
+  border: 1px solid grey;
+  padding: 1rem;
+}
+
+.table th,
+td {
+  height: max-content;
+  margin: 1rem;
+  font-size: 2.5rem;
+  width: max-content;
+}
+th {
+  color: #ffff;
+  border: 1px solid grey;
+}
+thead {
+  background-color: #f56969;
+}
+
+ .task{
+  overflow:auto;
+  max-height: 40rem;
+  padding: 1rem;
+}
+ 
+.table {
+  max-width: 600px;
+  min-height: 400px;
+  background-color: aliceblue;
+  padding: 1rem;
+
+}
+.number {
+  background-color: azure;
+  width: 50px;
+  font-size: 2.5;
+}
+button {
+  border: transparent;
+}
